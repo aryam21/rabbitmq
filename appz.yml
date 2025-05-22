@@ -1,0 +1,19 @@
+app:
+        name: rabbitmq
+        code: RABBITMQ
+        notify: aramanan@ecloudcontrol.com
+        
+    build:
+        version: 3.12
+        env: DEV
+        build_file: none
+        output_files: output/*.zip
+        image_template: rabbitmq-3.12
+        
+    deploy:
+        context: aryam21/DEV
+        replicas: 1
+        port:
+        - 8097
+        - 3000
+        revision : 7
