@@ -1,4 +1,4 @@
-app:
+    app:
         name: rabbitmq
         code: RABBITMQ
         notify: aramanan@ecloudcontrol.com
