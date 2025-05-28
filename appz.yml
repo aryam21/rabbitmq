@@ -15,4 +15,4 @@ app:
         replicas: 1
         port:
         - 5672
-        revision : 3
+        revision : 4
